@@ -1,0 +1,23 @@
+create database tasks;
+
+use tasks;
+
+create table StudentsData(users varchar(20), codekata int, attendance int, topics varchar(40), tasks int, company_drives int, mentors varchar(20), students_activated_courses int, courses varchar(20));
+
+describe StudentsData;
+
+insert into StudentsData values('ram', '100', '56', 'component', '29', '6','Lavish Sir', '22', 'Full Stack Developer');
+
+insert into StudentsData values('joy', '130', '52', 'formik', '29', '4','Lavish Sir', '21', 'Full Stack Developer');
+
+insert into StudentsData values('sita', '103', '35', 'html', '39', '7','Lavish Sir', '20', 'Developer');
+
+
+
+insert into StudentsData values('Ganer', '123', '45', 'react', '19', '3','yogesh', '15', 'React Developer');
+
+
+insert into StudentsData values('Abhay', '133', '25', 'mounting', '32', '9','Lavish Sir', '35', 'Junior Developer');
+
+
+select * from studentsData;
